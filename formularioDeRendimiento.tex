@@ -1,0 +1,49 @@
+\documentclass{article}
+
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\usepackage{url}
+
+
+\title{Formulario Capitulo 1}
+\author{nombre: Martin Natera C.D: 30.445.341}
+\geometry{margin=2cm}
+
+\begin{document}
+	\maketitle
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{p{8cm}p{8cm}}
+			\hline
+			                 \textbf{  Prestaciones:}        \\
+			\hline \\
+			$prestaciones_{x}=\frac{1}{tiempo \ de \ ejercucion_{x}}$	& $prestaciones_{x} > prestaciones_{y} $    \\
+			\\
+			$\frac{1}{tiempo \ de \ ejercucion_{x}} > \frac{1}{tiempo \ de \ ejercucion_{y}} $& $tiempo \ de \ ejercucion_{y} > tiempo \ de \ ejercucion_{x}$     \\
+			\\
+			$\frac{prestaciones_{x}}{prestaciones_{y}}= n$ &$\frac{tiempo \ de \ ejecucion_{y}}{tiempo \ de \ ejecucion_{x}}= n$      \\
+			\\
+			\hline \\
+			\textbf{Prestaciones de la CPU:} \\
+			\hline \\
+			 Tiempo de ejecución de CPU=  Ciclos de reloj de la CPU $\times$ Tiempo del ciclo del reloj &  Tiempo de ejecución de CPU=$\frac{Ciclos \ de \ reloj \ de \ la \ CPU}{ Frecuencia de reloj}$ \\ \\
+			\hline \\
+			Tiempo de $CPU_{X}$=$\frac{Ciclos \ de \ reloj \ de \ CPU_{X}}{Frecuencia \ de \ reloj_{Y}}$ & \\
+			\hline \\
+		\textbf{	Prestaciones de las instrucciones:} \\
+			\hline \\
+			Ciclos de reloj de CPU = Instrucciones de un programa $\times$ Media de ciclos 
+			por instrucción & \\
+			\hline \\
+			prestaciones de la CPU: \\
+			\hline \\
+			Tiempo de ejecución= Número de instrucciones$\times CPI \times$Tiempo de ciclo & Tiempo de ejecución=$\frac{Numero \ de \ instrucciones}{Frecuencia \ de \ reloj}$ \\
+			\hline \\
+			CPI=$\frac{Ciclos \ de \ reloj \ de \ CPU}{Numero \ de \ instrucciones}$&  Ciclos de reloj de la CPU=$\sum_{i=1}^{n}(CPI_{i}\times C_{i})$  \\ \\
+			\hline \\
+		\end{tabular}
+	\end{table}
+\end{document}
